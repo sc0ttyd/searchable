@@ -18,5 +18,4 @@ class SearchIndexesController extends SearchableAppController {
         $this->set(compact('results', 'term', 'types'));
         $this->pageTitle = 'Search';
     }
-
 }
